@@ -351,7 +351,7 @@
     display: flex;
   }
   .volumeAdjust{
-    width: 90%;
+    width: 100%;
     margin-top:30px;
     -webkit-appearance: none;
     height: 4px;
@@ -471,3 +471,5 @@
    
 
  }
+
+ 

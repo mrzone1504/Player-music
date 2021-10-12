@@ -209,7 +209,7 @@ const app={
         //Load duration instantly 
         audio.onloadeddata = function(){
                 _this.songTime=audio.duration.toFixed();
-                // _this.songVolume=audio.volume*100; 
+               /*  _this.songVolume=audio.volume*100;  */
                 var second=_this.songTime%60;
                 endTime.innerHTML =`0${Math.floor(_this.songTime/60)}:${second>9?second:'0'+second}`;
         }
@@ -306,7 +306,9 @@ const app={
             _this.songVolume=e.target.value;
             audio.volume=_this.songVolume/100;
             volumeDisplay();
-            _this.setConfig("volume",_this.songVolume);
+            _this.setConfig("volume",_this.songVolume+100); //refresh về 100%
+            //reload trang mà âm thanh không reset lại ban đầu (giữ nguyên giá trị lần trước)
+            //_this.setConfig("volume",_this.songVolume);
             _this.volumeIconHandle();   
         };
 
