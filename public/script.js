@@ -42,8 +42,8 @@ const app={
         {
             name: "Stay",
             singer: "The Kid LAROI, Justin Bieber",
-            path: "./musicStore/Music mp3/Stay-TheKidLAROIJustinBieber-7045258.mp3",
-            image: "./musicStore/Music img/stay.jpg"
+            path: "http://api.mp3.zing.vn/api/streaming/audio/ZUWIB0AW/500",
+            image: "https://upload.wikimedia.org/wikipedia/en/0/0c/The_Kid_Laroi_and_Justin_Bieber_-_Stay.png"
           },
           {
             name: "Build A Bitch",
@@ -66,39 +66,88 @@ const app={
           {
             name: "Unstoppable",
             singer: "Sia",
-            path: "./musicStore/Music mp3/Unstoppable-Sia-4312901.mp3",
-            image:"./musicStore/Music img/unstoppable.jpg"
+            path: "http://api.mp3.zing.vn/api/streaming/audio/ZW7O99BA/500",
+            image:"https://i1.sndcdn.com/artworks-yqiiKWS6GVNHnqIi-Zup5hg-t500x500.jpg"
           },
           {
             name: "Dusk Till Dawn",
             singer: "Zayn, Sia",
-            path:"./musicStore/Music mp3/DuskTillDawn-ZaynSia-5164057.mp3",
-            image:"./musicStore/Music img/dusktilldawn.jpg"
+            path:"http://api.mp3.zing.vn/api/streaming/audio/ZW8I78UO/500",
+            image:"https://i.pinimg.com/originals/15/ca/79/15ca797e31e129f1c3f6faab22b00e05.jpg"
           },
           {
             name: "Symphony",
             singer: "Clean Bandit, Zara Larsson",
-            path: "./musicStore/Music mp3/Symphony-CleanBanditZaraLarsson-4822950.mp3",
-            image: "https://lh3.googleusercontent.com/proxy/3hiS_zR4WZ-6OIMI1nTZJbD2LWBKOJ6gcVgSltfIMUG_T4UIcn9myPhi1aZa50pLfkMz0Njy6JJb-iOptbzBtx4eh5dLIyvA3MA"
+            path: "http://api.mp3.zing.vn/api/streaming/audio/ZW7FIZWE/500",
+            image: "https://i1.sndcdn.com/artworks-hQgO5NdqHxcQeMVP-bIJ3oQ-t500x500.jpg"
           },
           {
             name: "Señorita ",
             singer: "Shawn Mendes, Camila Cabello",
-            path: "./musicStore/Music mp3/Seorita-ShawnMendesCamilaCabello-6007813.mp3",
+            path: "http://api.mp3.zing.vn/api/streaming/audio/ZWAFDUW0/500",
             image: "https://wetaya.com/wp-content/uploads/2020/03/Shawn-Mendes-Camila-Cabello-Senorita-Q-o-d-%C3%AB-s-Remix.jpg"
           },
           {
             name: "Lost",
             singer: "Maroon 5",
-            path: "./musicStore/Music mp3/Lost-Maroon5-7031543.mp3",
-            image: "./musicStore/Music img/lost.png"
+            path: "http://api.mp3.zing.vn/api/streaming/audio/ZU0CA0ZO/500",
+            image: "https://musicjinx.com/wp-content/uploads/2021/06/20210616_205334_0000.png"
           },
           {
             name: "Wolves",
             singer: "Selena Gomez, Marshmello",
-            path: "./musicStore/Music mp3/Wolves-SelenaGomezMarshmello-5443085.mp3",
-            image: "./musicStore/Music img/wolves.jpg"
+            path: "http://api.mp3.zing.vn/api/streaming/audio/ZW8WW8FZ/500",
+            image: "https://avatar-ex-swe.nixcdn.com/song/2017/10/25/f/3/a/5/1508949700484_640.jpg"
+          },
+          {
+            name: "Rồi tới luôn",
+            singer: "Nal",
+            path: "https://api.mp3.zing.vn/api/streaming/audio/ZUOZWCUC/500",
+            image: "https://i.scdn.co/image/ab67616d0000b2739317ef1fb4bfaf1538ef816e"
+          },
+          {
+            name: "Yêu là cưới",
+            singer: "Phát Hồ, X2X",
+            path: "https://api.mp3.zing.vn/api/streaming/audio/ZU6IEI66/500",
+            image: "https://lyricvn.com/wp-content/uploads/2021/09/49da6a1d6cf13a42e77bc3a945d9dd6b.jpg"
+          },
+          {
+            name: "Em hát ai nghhe",
+            singer: "Organe",
+            path: "https://api.mp3.zing.vn/api/streaming/audio/ZUU8FEI8/500",
+            image: "https://leecoffee.net/wp-content/uploads/2021/08/Em-Hat-Ai-Nghe-Orange.png"
+          },
+          {
+            name: "Hạ còn vương nắng",
+            singer: "Datkaa, Kido",
+            path: "https://api.mp3.zing.vn/api/streaming/audio/ZOAFBWB0/500",
+            image: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/d/8/0/1/d801670cd8ecdb89750bdbe8de198021.jpg"
+          },
+          {
+            name: "Chỉ là không cùng nhau",
+            singer: "Tăng Phúc, Trương Thảo Nhi",
+            path: "https://api.mp3.zing.vn/api/streaming/audio/ZOACFBBU/500",
+            image: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/1/f/1/a/1f1ab8428a983f8a7700bfaa5591713b.jpg"
+          },
+          {
+            name: "Kẹo bông gòn",
+            singer: "H2K, TRUNKY",
+            path: "https://api.mp3.zing.vn/api/streaming/audio/ZWEW9WI8/500",
+            image: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/d/e/9/1/de91f9c8b08e1fb4b35e2b64e1c2ed15.jpg"
+          },
+          {
+            name: "Cafe không đường",
+            singer: "G5R Squad",
+            path: "https://api.mp3.zing.vn/api/streaming/audio/ZO9ZI68B/500",
+            image: "https://photo-zmp3.zadn.vn/cover/2/8/6/f/286f0b4fae2ab3b2a7942968e22bd58f.jpg"
+          },
+          {
+            name: "OK",
+            singer: "Binz",
+            path: "https://api.mp3.zing.vn/api/streaming/audio/ZWB0U608/500",
+            image: "https://i1.sndcdn.com/artworks-fzQd1RhKx01AszrO-KAlQXg-t500x500.jpg"
           }
+
     ],
     setConfig: function(key, value) {
         this.config[key] = value;
